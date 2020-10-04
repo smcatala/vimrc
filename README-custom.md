@@ -4,9 +4,10 @@ requires `nvim >= 0.4.3`, as per [nvim installation instructions](https://github
 
 ```bash
 git checkout custom
-git submodule init
-git update --init --recursive
+git submodule update --init --recursive
 ```
+note that submodule remotes are `git:github.com` urls,
+which require ssh access to github.
 
 `yarn` is required by `coc.nvim`:
 ```bash
@@ -17,7 +18,7 @@ on the first launch of `vi`, initialize `coc.nvim`
 and add typical extensions:
 ```vi
 :call coc#util#install()
-:CocInstall coc-json coc-yaml coc-html coc-css coc-tsserver coc-python coc-java
+:CocInstall coc-json coc-yaml coc-html coc-css coc-tsserver coc-jedi coc-java coc-go
 ```
 
 ## features
@@ -30,5 +31,5 @@ adds the following plugins:
 * vim-fahrenheit
 * vim-farout (default colorscheme)
 * vim-jsx-pretty
-* vim-startify
+* vim-startify (`<leader>;`)
 

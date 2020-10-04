@@ -232,3 +232,6 @@ autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
 "nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 "nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+" support comments in coc-json
+autocmd FileType json syntax match Comment +\/\/.\+$+
