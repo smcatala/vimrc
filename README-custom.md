@@ -12,7 +12,7 @@ additionally, [bat](https://github.com/sharkdp/bat) is a useful cat clone and pa
 complementary to nvim in the terminal.
 ```bash
 sudo apt install batcat # ubuntu 20.04
-echo "alias bat='batcat --tabs=2'" >> ~./bash_aliases
+echo "alias bat='batcat --tabs=2 theme=base16'" >> ~./bash_aliases
 ```
 
 ## installation
@@ -28,6 +28,13 @@ which require ssh access to github.
 npm i -g yarn
 ```
 
+before running `vi`, initialize `markdown-preview.nvim`:
+```bash
+pushd my_plugins/markdown-preview.nvim/app
+yarn install
+popd
+```
+
 on the first launch of `vi`, initialize `coc.nvim`
 and add typical extensions:
 ```vi
@@ -40,6 +47,7 @@ adds the following plugins:
 * auto-pairs
 * coc.nvim
 * gitsession
+* markdown-preview.nvim
 * nerdtree-git-plugin
 * rnvimr
 * tagbar

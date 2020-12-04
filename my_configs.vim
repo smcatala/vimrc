@@ -23,6 +23,9 @@ set noshowmode
 set t_Co=256
 colorscheme farout
 
+" markdown preview
+nmap <leader><Space>m <Plug>MarkdownPreviewToggle
+
 " nerdtree
 let g:NERDTreeWinPos = "left"
 

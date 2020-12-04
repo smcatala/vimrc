@@ -31,3 +31,6 @@
 [submodule "my_plugins/rnvimr"]
 	path = my_plugins/rnvimr
 	url = git@github.com:kevinhwang91/rnvimr.git
+[submodule "my_plugins/markdown-preview.nvim"]
+	path = my_plugins/markdown-preview.nvim
+	url = git@github.com:iamcco/markdown-preview.nvim.git
