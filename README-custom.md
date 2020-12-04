@@ -1,7 +1,21 @@
 # Customized Awesome Vimrc
-## installation
+## dependencies
 requires `nvim >= 0.4.3`, as per [nvim installation instructions](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim).
 
+also, some of the plugins require the following dependencies:
+```bash
+sudo apt install libxext-dev # optionally required by ueberzug
+pip3 install ranger-fm pynvim ueberzug # required by rnvimr
+```
+
+additionally, [bat](https://github.com/sharkdp/bat) is a useful cat clone and pager,
+complementary to nvim in the terminal.
+```bash
+sudo apt install batcat # ubuntu 20.04
+echo "alias bat='batcat --tabs=2'" >> ~./bash_aliases
+```
+
+## installation
 ```bash
 git checkout custom
 git submodule update --init --recursive
@@ -27,9 +41,11 @@ adds the following plugins:
 * coc.nvim
 * gitsession
 * nerdtree-git-plugin
+* rnvimr
 * tagbar
 * vim-fahrenheit
 * vim-farout (default colorscheme)
+* vim-floaterm
 * vim-jsx-pretty
 * vim-startify (`<leader>;`)
 

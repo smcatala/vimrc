@@ -51,6 +51,36 @@ nmap <leader>v :TagbarToggle<CR>
 " startify
 nmap <leader>; :Startify<CR>
 
+" vim-floaterm
+let g:floaterm_open_command = 'tabe'
+nnoremap   <silent>   <F9>    :FloatermNew --height=0.4 --width=0.98 --wintype=floating --position=bottom --autoclose=2 --title=
+tnoremap   <silent>   <F9>    <C-\><C-n>:FloatermNew --height=0.4 --width=0.98 --wintype=floating --position=bottom --autoclose=2 --title=
+nnoremap   <silent>   <F8>    :FloatermPrev<CR>
+tnoremap   <silent>   <F8>    <C-\><C-n>:FloatermPrev<CR>
+nnoremap   <silent>   <F10>    :FloatermNext<CR>
+tnoremap   <silent>   <F10>    <C-\><C-n>:FloatermNext<CR>
+nnoremap   <silent>   <F12>   :FloatermToggle<CR>
+tnoremap   <silent>   <F12>   <C-\><C-n>:FloatermToggle<CR>
+tnoremap   <silent>   <F11>   <C-\><C-n><CR>
+nnoremap   <C-c><C-c> :FloatermSend<CR>
+vnoremap   <C-c><C-c> :FloatermSend<CR>
+
+" rnvimr
+nmap <leader><Space>r :RnvimrToggle<CR>
+" Replace Netrw as file explorer
+let g:rnvimr_ex_enable = 1
+" Hide Ranger after opening a file
+let g:rnvimr_enable_picker = 1
+" Customize the initial layout
+let g:rnvimr_layout = {
+  \ 'relative': 'editor',
+  \ 'width': float2nr(round(1.0 * &columns)),
+  \ 'height': float2nr(round(0.42 * &lines)),
+  \ 'col': float2nr(round(0.0 * &columns)),
+  \ 'row': float2nr(round(0.54 * &lines)),
+  \ 'style': 'minimal'
+  \ }
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " coc
 " based on https://github.com/neoclide/coc.nvim#example-vim-configuration

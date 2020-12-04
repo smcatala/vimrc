@@ -25,3 +25,9 @@
 [submodule "my_plugins/gitsession"]
 	path = my_plugins/gitsession
 	url = git@github.com:woodyZootopia/gitsession.vim.git
+[submodule "my_plugins/vim-floaterm"]
+	path = my_plugins/vim-floaterm
+	url = git@github.com:voldikss/vim-floaterm.git
+[submodule "my_plugins/rnvimr"]
+	path = my_plugins/rnvimr
+	url = git@github.com:kevinhwang91/rnvimr.git
