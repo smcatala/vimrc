@@ -47,6 +47,8 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
 " gitsession
 nmap gss :SaveSession<CR>
 nmap gsl :LoadSession<CR>
+let g:gitsession_autoload = 0
+let g:gitsession_autosave = 0
 
 " tagbar
 nmap <leader>v :TagbarToggle<CR>
