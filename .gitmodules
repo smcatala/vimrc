@@ -1,36 +1,36 @@
 [submodule "my_plugins/auto-pairs"]
 	path = my_plugins/auto-pairs
-	url = git@github.com:jiangmiao/auto-pairs.git
+	url = https://github.com/jiangmiao/auto-pairs.git
 [submodule "my_plugins/coc.nvim"]
 	path = my_plugins/coc.nvim
-	url = git@github.com:neoclide/coc.nvim.git
+	url = https://github.com/neoclide/coc.nvim.git
 [submodule "my_plugins/nerdtree-git-plugin"]
 	path = my_plugins/nerdtree-git-plugin
-	url = git@github.com:Xuyuanp/nerdtree-git-plugin.git
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
 [submodule "my_plugins/tagbar"]
 	path = my_plugins/tagbar
-	url = git@github.com:preservim/tagbar.git
+	url = https://github.com/preservim/tagbar.git
 [submodule "my_plugins/vim-fahrenheit"]
 	path = my_plugins/vim-fahrenheit
-	url = git@github.com:fcpg/vim-fahrenheit
+	url = https://github.com/fcpg/vim-fahrenheit
 [submodule "my_plugins/vim-farout"]
 	path = my_plugins/vim-farout
-	url = git@github.com:fcpg/vim-farout
+	url = https://github.com/fcpg/vim-farout
 [submodule "my_plugins/vim-jsx-pretty"]
 	path = my_plugins/vim-jsx-pretty
-	url = git@github.com:MaxMEllon/vim-jsx-pretty
+	url = https://github.com/MaxMEllon/vim-jsx-pretty
 [submodule "my_plugins/vim-startify"]
 	path = my_plugins/vim-startify
-	url = git@github.com:mhinz/vim-startify.git
+	url = https://github.com/mhinz/vim-startify.git
 [submodule "my_plugins/gitsession"]
 	path = my_plugins/gitsession
-	url = git@github.com:woodyZootopia/gitsession.vim.git
+	url = https://github.com/woodyZootopia/gitsession.vim.git
 [submodule "my_plugins/vim-floaterm"]
 	path = my_plugins/vim-floaterm
-	url = git@github.com:voldikss/vim-floaterm.git
+	url = https://github.com/voldikss/vim-floaterm.git
 [submodule "my_plugins/rnvimr"]
 	path = my_plugins/rnvimr
-	url = git@github.com:kevinhwang91/rnvimr.git
+	url = https://github.com/kevinhwang91/rnvimr.git
 [submodule "my_plugins/markdown-preview.nvim"]
 	path = my_plugins/markdown-preview.nvim
-	url = git@github.com:iamcco/markdown-preview.nvim.git
+	url = https://github.com/iamcco/markdown-preview.nvim.git

@@ -16,12 +16,12 @@ echo "alias bat='batcat --tabs=2 theme=base16'" >> ~./bash_aliases
 ```
 
 ## installation
+after the standard installation, switch to the `custom` branch
+and initialize the submodules:
 ```bash
 git checkout custom
 git submodule update --init --recursive
 ```
-note that submodule remotes are `git:github.com` urls,
-which require ssh access to github.
 
 `yarn` is required by `coc.nvim`:
 ```bash
@@ -35,11 +35,25 @@ yarn install
 popd
 ```
 
-on the first launch of `vi`, initialize `coc.nvim`
-and add typical extensions:
-```vi
+on the first launch of `vi`, initialize `coc.nvim`:
+```vim
 :call coc#util#install()
+```
+then restart `vim` and install `coc` plugins:
+```vim
 :CocInstall coc-json coc-yaml coc-html coc-css coc-tsserver coc-jedi coc-java coc-go
+```
+
+## update
+to update `coc` plugins:
+```vim
+:CocUpdate
+```
+
+to pull updates from the `custom` branch:
+```
+git pull --rebase
+git submodule update --init --recursive
 ```
 
 ## features
